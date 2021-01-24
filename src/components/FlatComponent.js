@@ -11,7 +11,7 @@ const FlatComponent = ({data}) => {
   const [assistirDepois, setAssistirDepois] = useState(false);
 
   const navegar = () => {
-    navigation.navigate('Tela2', {data});
+    navigation.navigate('Detalhes', {data});
   };
 
   const assistirMaisTarde = () => {
@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     alignItems: 'center',
     borderRadius: 5,
+    marginBottom: 5,
   },
   btnText: {
     color: '#DAD1BF',
